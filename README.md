@@ -51,12 +51,11 @@ This project follows the **Medallion Architecture**, structured into three layer
 
 <img width="568" height="359" alt="SQL_DWH_Architecture" src="https://github.com/user-attachments/assets/f31a5829-5405-4711-ad7f-2e17cef5b07e" />
 
-**1. Bronze Layer:** Raw data ingested from ERP and CRM CSV files into a SQL Server database.
+**1. Bronze Layer:** Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 
-**2. Silver Layer:** Data cleansing, standardization, and normalization for analytical readiness.
+**2. Silver Layer:** This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 
-**3. Gold Layer:** Business-ready data modeled into a star schema for reporting and dashboards.
-
+**3. Gold Layer:** Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 
 
