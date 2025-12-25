@@ -5,7 +5,7 @@ DDL Script: Create Silver Tables
 Script Purpose:
     This script creates tables in the 'silver' schema, dropping existing tables 
     if they already exist.
-    In addition, add metadata columns (create date of table and DWH) to track
+    In addition, add metadata columns (create date of DWH) to track
     the data loading/updating date in silver layer.
 	  Run this script to re-define the DDL structure of 'bronze' Tables
 ===============================================================================
